@@ -6,13 +6,15 @@
 
 .container{
   height: 100vh;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #quote-box
 {
   max-width: 500px;
   min-height: 250px ;
-  margin: 50px auto;
   background-color: white;
   padding: 2rem;
   border-Radius: 5px; 
